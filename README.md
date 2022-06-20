@@ -7,6 +7,8 @@ getting blocked.
 There are 2 options for proxy integrations — the first is integrating directly with [Bright Data super proxies](https://brightdata.com/proxy-types/super-proxy) 
 and the second is through the Bright Data [proxy manager](https://github.com/luminati-io/luminati-proxy).
 
+![Bright Data Proxy Manager](https://github.com/luminati-io/proxy-integrations/blob/main/Proxy%20Manager.png)
+
 <h2>Selenium proxy integration</h2>
 
 [Selenium](https://github.com/SeleniumHQ/selenium) web driver is a popular browser automation tool among Python coders that may be used to create realistic
@@ -209,7 +211,7 @@ Start using the Bright Data <b>[Playwright proxy integration here](https://brdta
 
 <h2>Other useful Bright Data proxy integrations</h2>
 
-* PhantomBuster
+* PhantomBuster - watch the proxy integration tutorial video on [YouTube](https://youtu.be/Tw68CHXs_jE).
 * Apify
 * SessionBox
 * VMLogin
