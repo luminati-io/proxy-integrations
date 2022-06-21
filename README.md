@@ -1,9 +1,9 @@
 # Proxy Integrations
 
 
-If you're like most web developers and scraping experts, you've probably used Selenium or an equivalent browser automation tool for one of your projects. These are 
-powerful testing and web page interaction tools but in most cases they require a proper <b>proxy IP integration</b> to successfully complete certain job types without 
-getting blocked.
+If you're like most web developers and scraping experts, you've probably used <b>Selenium</B> or an equivalent browser automation tool for one of your projects. These 
+are powerful testing and web page interaction tools but in most cases they require a proper <b>proxy IP integration</b> to successfully complete certain job types 
+without getting blocked.
 There are 2 options for proxy integrations — the first is integrating directly with [Bright Data super proxies](https://brightdata.com/proxy-types/super-proxy) 
 and the second is through the Bright Data [proxy manager](https://github.com/luminati-io/luminati-proxy).
 
@@ -18,7 +18,8 @@ browsing situations for the most precise website testing as well as web scraping
 * First, access your Bright Data [control panel](https://brightdata.com/cp/zones) and click ‘<b>add zone</b>’.
 * Select your preferred network type - Datacenter, ISP, Residential, Mobile, etc.  and click '<b>add zone</b>' again.
 * In Selenium web driver, fill in the ```Proxy IP:Port``` in the ```setProxy``` function for example ```zproxy.lum-superproxy.io:22225``` of both HTTP and HTTPS.
-* Under ```sendKeys``` input your Bright Data account ID and proxy zone name:```sh lum-customer-CUSTOMER-zone-YOURZONE``` and your zone password found in the proxy zone settings.
+* Under ```sendKeys``` input your Bright Data account ID and proxy zone name:```lum-customer-CUSTOMER-zone-YOURZONE``` and your zone password found in the proxy zone 
+* settings.
 * Here is an example of what your code should look like:
 
 ```s
