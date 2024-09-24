@@ -4,7 +4,7 @@
 If you're like most web developers and scraping experts, you've probably used <b>Selenium</B> or an equivalent browser automation tool for one of your projects. These 
 are powerful testing and web page interaction tools but in most cases they require a proper <b>proxy IP integration</b> to successfully complete certain job types 
 without getting blocked.
-There are 2 options for proxy integrations — the first is integrating directly with [Bright Data super proxies](https://brightdata.grsm.io/vitariz-proxy) 
+There are 2 options for proxy integrations — the first is integrating directly with [Bright Data super proxies](https://brightdata.com/proxy-types/proxy-servers) 
 and the second is through the Bright Data [proxy manager](https://github.com/luminati-io/luminati-proxy).
 
 ![Bright Data Proxy Manager](https://github.com/luminati-io/proxy-integrations/blob/main/Proxy%20Manager.png)
@@ -45,7 +45,7 @@ const proxy = require('selenium-webdriver/proxy');
 <h3>To integrate Selenium with Bright Data proxy manager, follow these steps:</h3>
 
 * Create a proxy zone with the network, IP type, and number of IPs you require.
-* [Install](https://brightdata.grsm.io/vitariz-lpm) the Bright Data Proxy Manager on your machine or access it via cloud on your Bright Data control panel.
+* [Install](https://brightdata.com/products/proxy-manager) the Bright Data Proxy Manager on your machine or access it via cloud on your Bright Data control panel.
 * Click the <b>‘add new proxy’</b> option and choose the zone and settings you require for it, then click <b>‘save’</b>.
 * Go to Selenium web driver.  Under the setProxy type in your local IP and proxy manager port (i.e. 127.0.0.1:24000).
 * The local host IP is 127.0.0.1.
@@ -72,7 +72,7 @@ const proxy = require('selenium-webdriver/proxy');
 })();
 ```
 
-Start using the <b>[Selenium proxy integration here](https://brightdata.grsm.io/vitariz-cp)</b>.
+Start using the <b>[Selenium proxy integration here](https://brightdata.com/integration/selenium)</b>.
 
 
 <h2>Puppeteer proxy integration</h2>
@@ -135,7 +135,7 @@ const puppeteer = require('puppeteer');
 })();
 ```
 
-Start using the Bright Data <b>[Puppeteer proxy integration here](https://brightdata.grsm.io/vitariz-cp)</b>.
+Start using the Bright Data <b>[Puppeteer proxy integration here](https://brightdata.com/integration/puppeteer)</b>.
 
 
 <h2>Playwright proxy integration</h2>
@@ -207,7 +207,7 @@ const playwright = require('playwright');
 })();
 ```
 
-Start using the Bright Data <b>[Playwright proxy integration here](https://brightdata.grsm.io/vitariz-cp)</b>.
+Start using the Bright Data <b>[Playwright proxy integration here](https://brightdata.com/integration/playwright)</b>.
 
 
 <h2>Other useful Bright Data proxy integrations</h2>
